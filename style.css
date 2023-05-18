@@ -15,7 +15,7 @@ body {
 }
 
 .header {
-  font-family: "Cinzel", Arial, Helvetica, sans-serif;
+  font-family: "Cinzel", 'Times New Roman', Times, serif;
   background-color: maroon;
   display: grid;
   grid-template-columns: 200px 1fr;
@@ -52,5 +52,63 @@ img {
 }
 
 .info-container {
-  width: 250px;
+  width: 350px;
+  display: grid;
+  grid-template-rows: 2.5fr .7fr 2fr;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.image-container{
+  background-size: cover;
+  background-position: center;
+}
+
+.title-container{
+  background-color: maroon;
+  color: #fede00; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-container>h2{
+  margin: 0px;
+  text-align: center;
+  font-size: 2em;
+}
+
+.desc-container >p{
+  margin: 10px .5em;
+  font-size: 1.2em;
+}
+
+.chapel{
+  background-image: url(./images/chapel.jpg);
+}
+.oval{
+  background-image: url(./images/oval.jpg);
+}
+.main{
+  background-image: url(./images/main.jpg);
+}
+.pool{
+  background-image: url(./images/pool.jpg);
+}
+.canteen{
+  background-image: url(./images/canteen.jpg);
+}
+.charlie{
+  background-image: url(./images/charlie.jpg);
+}
+.lagoon{
+  background-image: url(./images/lagoon.jpg);
+}
+.lab-high{
+  background-image: url(./images/lab-high.jpg);
+}
+.freedom-park{
+  background-image: url(./images/freedom-park.jpg);
+}
+.pylon{
+  background-image: url(./images/pylon.jpg);
 }
