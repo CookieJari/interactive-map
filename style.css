@@ -1,7 +1,56 @@
-map{
-    border: 5px solid red;
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;700;800;900&family=Darumadrop+One&display=swap");
+
+* {
+  box-sizing: border-box;
 }
-area {
-    border: 1px solid red;
-    background-color: yellow;
-  }
+body {
+  height: 100vh;
+  margin: 0px;
+}
+
+.page-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  font-family: "Cinzel", Arial, Helvetica, sans-serif;
+  background-color: maroon;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  align-items: center;
+}
+.logo {
+  background-image: url(./images/Pup-logo.png);
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+}
+header > h1 {
+  margin: 0px;
+  color: #ffffff;
+  font-size: 5em;
+  text-align: center;
+}
+
+.main-section {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.campus-map-container {
+  display: flex;
+  border: 2px solid maroon;
+}
+img {
+  padding-bottom: 0px;
+  display: block;
+}
+
+.info-container {
+  width: 250px;
+}

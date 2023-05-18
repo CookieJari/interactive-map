@@ -1,17 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PUP Map</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <img src="./images/pup-map.jpg" alt="PUP Map" usemap="#PUPmap" width="566" height="425">
-    <button>PUP</button>
-    <map name="PUPmap">
-        <area shape="circle" coords="278,336,82" href="pup.html" alt="pup-map">
-    </map>
-</body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-container">
+      <div class="header">
+        <div class="logo"></div>
+        <header><h1>PUP Campus Map</h1></header>
+      </div>
+
+      <div class="main-section">
+        <div class="campus-map-container">
+          <div class="map-container">
+            <img
+              src="./images/pupmapsmall.gif"
+              alt="PUP Map"
+              usemap="#PUPmap"
+            />
+            <map name="PUPmap" id="map">
+              <area
+                alt="chapel"
+                title="chapel"
+                href=""
+                coords="502,475,64"
+                shape="circle"
+              />
+              <area
+                alt="oval"
+                title="oval"
+                href=""
+                coords="830,276 747,264 709,289 594,458 617,557 729,569 875,388 870,318 "
+                shape="polygon"
+              />
+              <area
+                alt="main"
+                title="main"
+                href=""
+                coords="225,410 307,556 399,564 415,546 416,432 525,358 493,300 387,359 267,298 230,351 266,383 "
+                shape="polygon"
+              />
+              <area
+                alt="pool"
+                title="pool"
+                href=""
+                coords="537,42,636,96"
+                shape="rect"
+              />
+              <area
+                alt="canteen"
+                title="canteen"
+                href=""
+                coords="261,259 164,211 185,313 214,354 254,303 "
+                shape="polygon"
+              />
+              <area
+                alt="charlie"
+                title="charlie"
+                href=""
+                coords="174,156 296,227 274,264 155,194 "
+                shape="polygon"
+              />
+              <area
+                alt="lagoon"
+                title="lagoon"
+                href=""
+                coords="427,141 412,206 374,221 364,264 343,275 347,296 393,289 427,265 481,172 459,142 "
+                shape="polygon"
+              />
+              <area
+                alt="lab-high"
+                title="lab-high"
+                href=""
+                coords="169,10 129,79 279,172 289,139 255,50 "
+                shape="polygon"
+              />
+              <area
+                alt="freedom-park"
+                title="freedom-park"
+                href=""
+                coords="499,294 528,354 548,334 577,268 534,262 "
+                shape="polygon"
+              />
+              <area
+                alt="pylon"
+                title="pylon"
+                href=""
+                coords="838,193,866,224"
+                shape="rect"
+              />
+            </map>
+          </div>
+          <div class="info-container"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hover-card"></div>
+
+    <script src="script.js"></script>
+  </body>
 </html>
