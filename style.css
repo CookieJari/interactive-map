@@ -15,13 +15,15 @@ body {
 }
 
 .header {
-  font-family: "Cinzel", 'Times New Roman', Times, serif;
+  font-family: "Cinzel", "Times New Roman", Times, serif;
   background-color: maroon;
   display: grid;
   grid-template-columns: 200px 1fr;
   align-items: center;
+  padding-top: 5px;
 }
 .logo {
+  margin-left: 50px;
   background-image: url(./images/Pup-logo.png);
   background-position: center;
   background-size: cover;
@@ -44,7 +46,8 @@ header > h1 {
 
 .campus-map-container {
   display: flex;
-  border: 2px solid maroon;
+  border: 5px solid maroon;
+  box-shadow: 6px 6px 1px #cccccc;
 }
 img {
   padding-bottom: 0px;
@@ -52,63 +55,66 @@ img {
 }
 
 .info-container {
+  background-color: #b90606;
   width: 350px;
   display: grid;
-  grid-template-rows: 2.5fr .7fr 2fr;
+  grid-template-rows: 2.5fr 0.7fr 2fr;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.image-container{
+.image-container {
+  background-color: #800000;
   background-size: cover;
   background-position: center;
 }
 
-.title-container{
+.title-container {
   background-color: maroon;
-  color: #fede00; 
+  box-shadow: 0px 10px 5px -3px #9d0505;
+  color: #fede00;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.title-container>h2{
+.title-container > h2 {
   margin: 0px;
   text-align: center;
   font-size: 2em;
 }
 
-.desc-container >p{
-  margin: 10px .5em;
+.desc-container > p {
+  margin: 15px 0.5em;
   font-size: 1.2em;
 }
 
-.chapel{
+.chapel {
   background-image: url(./images/chapel.jpg);
 }
-.oval{
+.oval {
   background-image: url(./images/oval.jpg);
 }
-.main{
+.main {
   background-image: url(./images/main.jpg);
 }
-.pool{
+.pool {
   background-image: url(./images/pool.jpg);
 }
-.canteen{
+.canteen {
   background-image: url(./images/canteen.jpg);
 }
-.charlie{
+.charlie {
   background-image: url(./images/charlie.jpg);
 }
-.lagoon{
+.lagoon {
   background-image: url(./images/lagoon.jpg);
 }
-.lab-high{
+.lab-high {
   background-image: url(./images/lab-high.jpg);
 }
-.freedom-park{
+.freedom-park {
   background-image: url(./images/freedom-park.jpg);
 }
-.pylon{
+.pylon {
   background-image: url(./images/pylon.jpg);
 }
